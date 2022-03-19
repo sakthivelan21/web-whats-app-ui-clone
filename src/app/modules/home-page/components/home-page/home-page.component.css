@@ -1,0 +1,15 @@
+#top-green-container
+{
+	background:var(--primary-green);
+	height:250px;
+	width:100%;
+	position:absolute;
+	z-index:-1;
+	top:0;
+}
+
+#middle-container
+{
+	width:80%;
+	margin:0 auto;
+}

@@ -1,0 +1,15 @@
+<div class="middle-detail-container">
+	<div class="middle-detail-text">
+		<p class="middle-detail-title">To navigate to the other pages</p>
+		<ul>
+			<li class="link-holder" *ngFor="let link of links">
+				<app-home-nav-link
+				 [linkModel]="link"> 
+				</app-home-nav-link>
+			</li>
+		</ul>
+	</div>
+	<div class="middle-detail-image-holder">
+		<img src="../../../../../assets/qr-image.png" alt="qr-image">
+	</div>
+</div>

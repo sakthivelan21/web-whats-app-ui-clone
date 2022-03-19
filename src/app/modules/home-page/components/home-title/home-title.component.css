@@ -1,0 +1,19 @@
+.head-title-container
+{
+	display:flex;
+	margin:30px auto;
+}
+
+.head-title-image
+{
+	width:40px;
+	height:40px;
+}
+
+.head-title-text
+{
+	margin:auto 15px;
+	color:var(--primary-white);
+	font-weight:500;
+	text-shadow: 2px 2px 4px #000;
+}

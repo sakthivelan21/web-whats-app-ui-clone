@@ -1,0 +1,32 @@
+
+.nav-link
+{
+	color:var(--primary-green);
+	line-height:1;
+	font-weight:500;
+	text-decoration:none;
+}
+
+.nav-link:hover
+{
+	text-decoration:underline;
+	text-decoration-color:var(--primary-green);
+	text-decoration-thickness:2px;
+	
+}
+
+.link-holder
+{
+	margin:10px;
+}
+
+.link-icon
+{
+  transition: all 0.15s ease-in-out;
+  font-weight:bold;
+  font-size:1.25rem;
+}
+
+.nav-link:hover .link-icon{
+  transform: translateY(-8px) scale(1.1);
+}
