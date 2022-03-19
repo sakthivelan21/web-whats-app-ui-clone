@@ -1,0 +1,54 @@
+<div class="middle-detail-container">
+	<div class="middle-detail-text">
+		<p class="login-title"> <span><i class="fa-brands fa-whatsapp"></i></span> Whatsapp Login</p>
+		<form [formGroup]="loginForm" (ngSubmit)="onSubmit()">
+			<div class="form-input">
+				<span><i class="fa-solid fa-user"></i></span>
+				<input 
+					class="form-input-tag"
+					type="text"
+					placeholder="Enter your username"
+					name = "username" 
+					formControlName="username"
+					required
+					
+				/>	
+			</div>
+			<div *ngIf="username?.invalid && (username?.dirty || username?.touched)" class="error">
+
+			  <div *ngIf="username?.errors?.['required']">
+					username is required.
+			  </div>
+			</div>
+			<div class="form-input">
+				<span><i class="fa-solid fa-key"></i></span>
+				<input 
+					class="form-input-tag"
+					type="password"
+					placeholder="Enter your password"
+					name = "password" 
+					formControlName="password"
+					required
+				/>	
+			</div>
+
+			<div *ngIf="password?.invalid && (password?.dirty || password?.touched)" class="error">
+
+			  <div *ngIf="password?.errors?.['required']">
+					Password is required.
+			  </div>
+			</div>
+
+			<button class="submit-button" type="submit" [disabled]="!loginForm.valid">
+				login
+			</button>
+		</form>
+
+		<p class="result-para"> Enter user name : {{username?.value}} </p>
+		<p class="result-para"> Enter password : {{password?.value}}</p>
+		
+	</div>
+	<div class="middle-detail-image-holder">
+		<img src="../../../../../assets/qr-image.png" alt="qr-image">
+	</div>
+</div>

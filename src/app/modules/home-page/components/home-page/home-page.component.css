@@ -1,4 +1,4 @@
-#top-green-container
+.top-green-container
 {
 	background:var(--primary-green);
 	height:250px;
@@ -8,8 +8,15 @@
 	top:0;
 }
 
-#middle-container
+.middle-container
 {
 	width:80%;
 	margin:0 auto;
+}
+
+@media screen and (max-width: 540px) {
+	.middle-container
+	{
+		width:95%;
+	}
 }

@@ -17,6 +17,9 @@ import { HomeNavLinkComponent } from './components/home-nav-link/home-nav-link.c
   imports: [
     CommonModule,
     HomePageRoutingModule
+  ],
+  exports:[
+  	HomeTitleComponent
   ]
 })
 export class HomePageModule { }
