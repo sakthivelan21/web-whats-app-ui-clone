@@ -1,0 +1,6 @@
+.chat-message
+{	
+	height:100%;
+	overflow:auto;
+    background-image:linear-gradient( rgb(13, 17, 23, 0.90) 100%, rgba(0, 0, 0, 0.5)100%),url("../../../../../assets/chat-back-wallpaper.png");
+}

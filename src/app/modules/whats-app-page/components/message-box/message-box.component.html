@@ -1,0 +1,17 @@
+<div class="message-box">
+	<div class="message-right-box" *ngIf="messageModel.state==='send'">
+		<div class="message">
+			<p class="message-line">{{ messageModel.message}} </p>
+			<p class="message-time">{{messageModel.time}}</p>
+		</div>	
+		<img src="../../../../../assets/right_tile.png" class="triangle-icon" alt=""/>
+	</div>
+	<div class="message-left-box" *ngIf="messageModel.state==='receive'">
+		<img src="../../../../../assets/left-tile.png" class="triangle-icon" alt=""/>
+		<div class="message-left">
+			<p class="message-line">{{ messageModel.message}} </p>
+			<p class="message-time">{{messageModel.time}}</p>
+		</div>	
+		
+	</div>
+</div>

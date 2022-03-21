@@ -1,0 +1,18 @@
+<div class="chat-list-header">
+	<div class="chat-list-header-first">
+		<img src="../../../../../assets/chat-user-icon.png" class="chat-list-header-user-icon" alt="chat-image"/>
+	</div>
+	<div class="chat-list-header-end">
+		<span class="chat-list-header-icon"><i class="fa-solid fa-spinner"></i></span>
+		<span class="chat-list-header-icon"><i class="fa-solid fa-message"></i></span>
+		<button class="setting-button"  #toggleButton (click)="toggleButtonState()"><span class="chat-list-header-icon"><i class="fa-solid fa-ellipsis-vertical"></i></span></button>
+	</div>  
+</div>
+
+<div class="modal" *ngIf="toggleValue" #menu>
+	  <div class="modal-content animate">
+	    <p class="route-setting-link"><a >Settings</a></p>
+	    
+	    <p class="route-setting-link"><a routerLink="login">Log out</a></p>
+	  </div>
+</div>

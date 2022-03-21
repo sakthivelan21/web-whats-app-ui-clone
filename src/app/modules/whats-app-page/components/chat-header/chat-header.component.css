@@ -1,0 +1,40 @@
+.chat-header
+{
+	display:flex;
+	justify-content:space-between;
+	background:var(--web-ui-header-color);
+	color:var(--primary-white);
+	font-family:arial,sans-serif;
+	height:65px;
+}
+
+.chat-header-first
+{
+	display:flex;
+}
+
+.chat-header-name
+{
+	padding:5px;
+}
+
+.chat-header-end
+{
+	display:flex;
+	padding:0px 20px;
+}
+
+.header-user-icon
+{
+	width:45px;
+	height:45px;
+	padding:10px;
+}
+
+.header-icon
+{
+	color:var(--chat-icon-color);
+	margin:auto 10px;
+	padding:0px 5px;
+	
+}

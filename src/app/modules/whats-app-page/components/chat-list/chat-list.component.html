@@ -1,0 +1,8 @@
+<div class="chat-list-container">
+	<app-chat-list-header></app-chat-list-header>
+	<app-chat-search-bar></app-chat-search-bar>
+	<div class="chat-preview-container">
+		<app-chat-preview-display *ngFor="let chatDetail of chatDetails" [chatDetail]="chatDetail"></app-chat-preview-display>
+		
+	</div>
+</div>

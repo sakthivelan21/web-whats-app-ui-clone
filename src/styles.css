@@ -6,6 +6,12 @@
 	--primary-white:#ffffff;
 	--primary-grey:#cecdcd;
 	--secondary-green:#178c73;
+	--web-ui-header-color:#202c33;
+	--web-ui-hover-color:#2a3942;
+	--web-ui-pop-up-color:#233138;
+	--chat-ui-color:#111b21;
+	--chat-icon-color:#b3bfc6;
+	--chat-border-color:#30373b;
 }
 
 body

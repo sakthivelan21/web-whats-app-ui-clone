@@ -1,0 +1,125 @@
+.chat-list-header
+{
+	display:flex;
+	justify-content:space-between;
+	background:var(--web-ui-header-color);
+	color:var(--primary-white);
+	font-family:arial,sans-serif;
+	height:65px;
+	border-right:1px solid var(--chat-border-color);
+}
+
+.chat-list-header-first
+{
+	display:flex;
+}
+
+.chat-list-header-end
+{
+	display:flex;
+	padding:0px 20px;
+}
+
+.chat-list-header-user-icon
+{
+	width:45px;
+	height:45px;
+	padding:10px;
+}
+
+.chat-list-header-icon
+{
+	color:var(--chat-icon-color);
+	margin:auto 11px;
+	padding:0px 5px;
+	
+}
+
+.modal-content {
+  background-color: var(--web-ui-pop-up-color);
+  margin-top:10px;
+  margin-left:16%;/* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid lightgray;
+  border-radius:4px;
+  width: 150px;
+  box-shadow:1px 1px 7px 1px #888888;
+  height:100px;/* Could be more or less, depending on screen size */
+}
+
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)} 
+  to {-webkit-transform: scale(1)}
+}
+  
+@keyframes animatezoom {
+  from {transform: scale(0)} 
+  to {transform: scale(1)}
+}
+
+.modal {
+  /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  padding-top: 50px;
+}
+
+.route-setting-link
+{
+	text-align:center;
+	margin:0;
+	padding:10px 0px;
+	cursor:pointer;
+}
+
+.setting-button
+{
+	background-color:inherit;
+	border:none;
+	color:white;
+}
+
+.route-setting-link:hover
+{
+	background-color:var(--web-ui-hover-color);
+}
+
+.route-setting-link:hover a{
+	color:var(--primary-white);
+}
+
+.route-setting-link a
+{
+	text-decoration:none;
+	color:var(--primary-grey);
+}
+
+
+@media only screen and (max-width: 540px) 
+{
+	.modal-content {
+		margin-left:unset;
+		float:right;
+		margin-right:50px;
+	}
+
+}
+
+@media only screen and (max-width: 900px) 
+{
+	.modal-content {
+		margin-left:20%;
+	}
+
+}

@@ -1,0 +1,29 @@
+.chat-preview-container
+{
+	border-right:1px solid var(--chat-border-color);
+	width:30%;
+	position:fixed;
+	height:100%;
+	overflow-y: auto;
+	
+}
+
+
+@media only screen and (max-width: 900px) {
+ 	.chat-preview-container
+	{
+		width:40%;
+	}
+
+	
+}
+
+@media only screen and (max-width: 640px) {
+ 	.chat-preview-container
+	{
+		width:100%;
+	}
+}
+
+
+

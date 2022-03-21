@@ -1,0 +1,30 @@
+.message-send
+{
+	background-color:#17232b;
+	height:100%;
+	display:flex;
+}
+
+.message-send-icon
+{
+	margin:10px 5px;
+	padding:5px 10px;
+	font-size:1.25rem;
+	color:var(--primary-grey);
+	cursor:pointer;
+}
+
+.message-input
+{
+	box-shadow: none;
+	border:none;
+	outline: none;
+	margin:10px auto;
+	width:80%;
+	border-radius:7px;
+	color:var(--primary-grey);
+	background: var(--web-ui-pop-up-color);
+}
+
+
+

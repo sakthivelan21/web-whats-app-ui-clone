@@ -1,0 +1,56 @@
+.chat-preview
+{
+	width:100%;
+	display:flex;
+	background-color:var(--chat-ui-color);
+}
+
+.chat-preview:hover
+{
+	background-color:var(--web-ui-hover-color)
+}
+
+.chat-preview:hover .last-message
+{
+	color:var(--primary-white);
+}
+
+.user-chat-preview-icon
+{
+	width: 45px;
+	height: 45px;
+	padding: 10px;
+}
+.container-details
+{
+	width:100%;
+	display:flex;
+	border-bottom:1px solid var(--chat-border-color);
+}
+.user-preview-chat-details
+{
+	width:90%;
+	margin:10px auto;
+	
+}
+
+.user-name
+{
+	margin:0;
+	font-size:1rem;
+}
+
+.last-message
+{
+	margin:0;
+	font-size:0.85rem;
+	color:var(--chat-icon-color);
+}
+
+
+.time
+{
+	font-size:0.85rem;
+	color:var(--chat-icon-color);
+	margin:auto 10px;
+}

@@ -1,0 +1,15 @@
+.chat-display-box {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+  }
+  .chat-display-box .row.header {
+    flex: 0 1 auto;
+  }
+  .chat-display-box .row.message {
+    flex: 1 1 auto;
+    overflow:auto;
+  }
+  .chat-display-box .row.footer {
+    flex: 0 1 60px;
+  }

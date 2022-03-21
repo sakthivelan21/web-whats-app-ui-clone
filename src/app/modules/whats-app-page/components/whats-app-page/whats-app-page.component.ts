@@ -7,9 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class WhatsAppPageComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+	constructor(){}
+	
+	ngOnInit(){}
 }

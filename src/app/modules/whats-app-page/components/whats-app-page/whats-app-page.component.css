@@ -1,0 +1,39 @@
+.web-whats-app-home
+{
+	color:white;
+	width:100%;
+	display:flex;
+}
+.chat-list
+{
+	width:30%;
+}
+
+.chat-display
+{
+	width:70%;
+}
+
+@media only screen and (max-width: 900px) {
+ 	.chat-list
+	{
+		width:40%;
+	}
+
+	.chat-display
+	{
+		width:60%;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+ 	.chat-list
+	{
+		width:100%;
+	}
+
+	.chat-display
+	{
+		display:none;
+	}
+}
