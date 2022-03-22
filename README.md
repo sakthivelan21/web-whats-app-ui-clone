@@ -10,8 +10,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### You can see the User Interface down below  
 
+## Desktop view
+![alt text](https://github.com/sakthivelan21/web-whats-app-ui-clone/blob/main/screenshots/screenshot.png?raw=true)
+
 <p align="center">
-  <img  src="https://github.com/sakthivelan21/web-whats-app-ui-clone/blob/main/screenshots/screenshot.png?raw=true" width="400" height="650" alt="demo-image"/>
+  <img  src="https://github.com/sakthivelan21/web-whats-app-ui-clone/blob/main/screenshots/mobile-screenshot.png?raw=true" width="400" height="650" alt="demo-image"/>
 </p>
 
 
