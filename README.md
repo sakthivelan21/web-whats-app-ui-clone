@@ -1,6 +1,17 @@
 # WebWhatsAppUiClone
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.
+This project was build just for fun to try to implement the web user interface of whatsapp.   
+
+I used component based approach to develop the ui part in angular and no external css library used !!!   
+
+The web user interface is highly responsive to all devices.   
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.6.  
+
+### You can see the User Interface down below  
+
+![Watch the working video](https://github.com/sakthivelan21/web-whats-app-ui-clone/blob/main/screenshots/video.webm)
+
 
 ## Development server
 
