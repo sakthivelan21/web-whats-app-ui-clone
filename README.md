@@ -10,7 +10,9 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ### You can see the User Interface down below  
 
-![Watch the working video](https://github.com/sakthivelan21/web-whats-app-ui-clone/blob/main/screenshots/video.webm)
+<p align="center">
+  <img  src="https://github.com/sakthivelan21/web-whats-app-ui-clone/blob/main/screenshots/screenshot.png?raw=true" width="400" height="650" alt="demo-image"/>
+</p>
 
 
 ## Development server
